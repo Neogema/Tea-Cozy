@@ -1,10 +1,6 @@
 /* Header */
 header {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
   background-color: black;
-  opacity: 0.9;
   display: flex;
   position: fixed;
   justify-content: center;
@@ -12,6 +8,7 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  z-index: 10;
 }
 .logo {
   display: flex;
@@ -23,7 +20,6 @@ header {
 }
 header nav {
   display: inline-block;
-
 }
 header nav a {
   color: seashell;
@@ -32,4 +28,35 @@ header nav a {
 /* Body */
 body {
   margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.top {
+  display: flex;
+  background-image: url(../images/background.jpg);
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+}
+.ourmission {
+  text-align: center;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.ourmission h2 {
+margin: 10px 0px 20px 0px;
+}
+.ourmission h4 {
+  margin: 10px;
 }
