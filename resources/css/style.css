@@ -23,7 +23,7 @@ header nav {
 }
 header nav a {
   color: seashell;
-  padding-left: 20px;
+  padding: 0px 10px;
 }
 /* Body */
 body {
@@ -34,18 +34,21 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+.top, .middle, .bottom {
+  padding-top: 70px;
+}
 .main {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
 }
 .top {
   display: flex;
   background-image: url(../images/background.jpg);
   align-items: center;
-  justify-content: center;
   height: 700px;
   width: 1200px;
-  padding-top: 69px;
 }
 .ourmission {
   text-align: center;
@@ -59,4 +62,34 @@ margin: 10px 0px 20px 0px;
 }
 .ourmission h4 {
   margin: 10px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+.middle h2, .middle h4 {
+  margin: 0px 0px 20px 0px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.items img {
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+}
+.items span {
+font-weight: bold;
+margin-bottom: 15px;
 }
