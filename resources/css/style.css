@@ -119,3 +119,24 @@ margin-bottom: 15px;
 .location p {
   padding: 10px 0px;
 }
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  height: 200px;
+  text-align: center;
+}
+.footer h2 {
+  padding-bottom: 10px;
+}
+.copyright {
+  width: 100%;
+  padding: 20px;
+}
+.copyright h5 {
+  margin: 0;
+  padding: 0 0 10px 20px;;
+}
