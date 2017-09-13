@@ -35,7 +35,7 @@ body {
   opacity: 0.9;
 }
 .main .top, .middle, .bottom {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 .main {
   display: flex;
@@ -82,7 +82,6 @@ margin: 10px 0px 20px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .items img {
   margin: 10px;
@@ -92,4 +91,32 @@ margin: 10px 0px 20px 0px;
 .items span {
 font-weight: bold;
 margin-bottom: 15px;
+}
+.bottom {
+  text-align: center;
+  background-image: url(../images/locations.jpg);
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+}
+.alllocations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  flex-direction: column;
+  flex-basis: 300px;
+  background-color: black;
+  margin: 0 20px;
+  opacity: 1;
+}
+.bottom h2 {
+  margin-bottom: 15px;
+}
+.location h3 {
+  margin-top: 20px;
+}
+.location p {
+  padding: 10px 0px;
 }
