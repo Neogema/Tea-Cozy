@@ -34,7 +34,7 @@ body {
   background-color: black;
   opacity: 0.9;
 }
-.top, .middle, .bottom {
+.main .top, .middle, .bottom {
   padding-top: 70px;
 }
 .main {
